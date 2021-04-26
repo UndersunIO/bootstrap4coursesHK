@@ -3,6 +3,39 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 
+#loginModal {
+    .modal-header {
+      background-color: $background-dark;
+      color: floralwhite;
+      .close {
+        color: floralwhite;
+      }
+    }
+    .modal-body {
+      background-color: $background-pale;
+    }
+    .modal-footer {
+      background-color: $background-light;
+    }
+  }
+  
+  #reserveModal {
+    .modal-header {
+      background-color: $background-dark;
+      color: floralwhite;
+      .close {
+        color: floralwhite;
+      }
+    }
+    .modal-body {
+      background-color: $background-pale;
+    }
+    .modal-footer {
+      background-color: $background-light;
+    }
+  }
+  
+
 // Height variables
 $carousel-item-height: 300px;
 
